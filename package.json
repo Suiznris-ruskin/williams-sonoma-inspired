@@ -1,0 +1,34 @@
+{
+  "name": "williams-sonoma-inspired",
+  "version": "1.0.0",
+  "description": "A modern, responsive website inspired by the Williams-Sonoma brand aesthetic",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "serve": "python3 -m http.server 8000",
+    "dev": "live-server --port=8000 --open=/index.html"
+  },
+  "keywords": [
+    "williams-sonoma",
+    "e-commerce",
+    "kitchen",
+    "home",
+    "responsive",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/williams-sonoma-inspired.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/williams-sonoma-inspired/issues"
+  },
+  "homepage": "https://yourusername.github.io/williams-sonoma-inspired",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
