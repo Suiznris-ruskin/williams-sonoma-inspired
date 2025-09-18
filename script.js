@@ -10,6 +10,23 @@ document.addEventListener('DOMContentLoaded', function() {
     initProductHoverEffects();
 });
 
+function initEmbeddedMessaging() {
+		try {
+			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
+
+			embeddedservice_bootstrap.init(
+				'00DXR000001TWaF',
+				'WSI_Default',
+				'https://orgfarm-1baaa895a1.test1.my.pc-rnd.site.com/ESWWSIDefault1758179645269',
+				{
+					scrt2URL: 'https://orgfarm-1baaa895a1.test1.my.pc-rnd.salesforce-scrt.com'
+				}
+			);
+		} catch (err) {
+			console.error('Error loading Embedded Messaging: ', err);
+		}
+	};
+
 // Smooth scrolling for navigation links
 function initSmoothScrolling() {
     const navLinks = document.querySelectorAll('.nav-link');
