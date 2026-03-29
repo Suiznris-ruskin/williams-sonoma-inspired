@@ -1,0 +1,56 @@
+{
+  "order_id": "PB-992834110",
+  "order_date": "2026-03-28T14:22:10Z",
+  "status": "Processing",
+  "customer": {
+    "customer_id": "CUST-44921",
+    "first_name": "Julian",
+    "last_name": "Vance",
+    "email": "j.vance@example.com",
+    "phone": "+1-555-010-8899",
+    "is_key_rewards_member": true
+  },
+  "shipping_address": {
+    "street": "1224 Chestnut Terrace",
+    "city": "San Francisco",
+    "state": "CA",
+    "zip_code": "94109",
+    "country": "USA"
+  },
+  "line_items": [
+    {
+      "product_id": "SKU-883921",
+      "product_name": "Sausalito Cane Platform Bed",
+      "size": "Queen",
+      "finish": "Seadrift",
+      "quantity": 1,
+      "price": 1799.00,
+      "delivery_method": "White Glove Service"
+    },
+    {
+      "product_id": "SKU-112004",
+      "product_name": "Belgian Flax Linen Sheet Set",
+      "color": "White",
+      "size": "Queen",
+      "quantity": 2,
+      "price": 279.00,
+      "delivery_method": "Standard Shipping"
+    }
+  ],
+  "totals": {
+    "subtotal": 2357.00,
+    "shipping_fees": 249.00,
+    "estimated_tax": 200.35,
+    "promotional_discount": -117.85,
+    "grand_total": 2688.50
+  },
+  "payment": {
+    "method": "Pottery Barn Credit Card",
+    "last_four": "8812",
+    "billing_address_same_as_shipping": true
+  },
+  "estimated_delivery_window": {
+    "start_date": "2026-04-10",
+    "end_date": "2026-04-17"
+  }
+}
